@@ -36,4 +36,4 @@ por ejemplo "¿Cual seria el equivalente humano de la Unidad central del procesa
 Respuesta: El cerebro. 
 
 #Ejercicio 9: ¿Como puedes corregir un "Error de sintaxis"?
-Respuesta: revisando cuidadosamente las lineas asegurandose de cumplir con las lenguas de el lenguaje. 
+Respuesta: revisando cuidadosamente las lineas asegurandose de cumplir con las reglas de el lenguaje. 
