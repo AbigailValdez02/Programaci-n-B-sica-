@@ -1,3 +1,4 @@
+#Determinar si un numero es par, impar o multiplo de otro
 num = int(input("Ingrese un numero:"))
 num2 = int(input("Ingrese el numero del cual desea saber si es multiplo:"))
 if num % 2 == 0:

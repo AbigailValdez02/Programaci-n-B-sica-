@@ -1,3 +1,4 @@
+#Generar la secuencia de fibbonacci hasta un numero dado de terminos
 n = int(input("Ingrese el numero de terminos:"))
 def fibonacci(n):
     if n <= 0:

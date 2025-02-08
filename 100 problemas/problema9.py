@@ -1,3 +1,4 @@
+#Generar una lista de numeros pares e impares hasta un limite dado
 limite = int(input("Ingrese el numero limite:"))
 
 pares = list(range(0, limite + 1, 2))

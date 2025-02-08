@@ -1,3 +1,4 @@
+#calcular el interes compuesto dado un capital, tasa y tiempo
 CI = int(input("Ingrese el capital inicial:"))
 TASA = float(input("Ingrese la taza de interes anual EXPRESADA EN DECIMAL:"))
 T = int(input("Ingrese el tiempo expresado en AÑOS:"))

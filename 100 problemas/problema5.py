@@ -1,3 +1,4 @@
+#verificar si un numero es primo
 n = int(input("Ingrese un numero:"))
 
 if n <= 1:
