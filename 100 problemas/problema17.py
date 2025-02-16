@@ -33,3 +33,70 @@ print(cola)
 
 
 #lista enlazada 
+class node:
+    def __init__(self, value):
+        self.value = value
+        self.Next = None
+
+    def __str__(self):
+        return str(self.value)
+    
+class listaEnlazada:
+    def __init__(self):
+        self.first = None
+        self.size = 0
+
+    def Append(self,value):
+        MyNode = Node(value)
+        if self.size == 0:
+            self.first = MyNode 
+        else:
+            current = self.first 
+            while current.Next != None:
+                current = current.Next
+            current.Next = MyNode 
+        
+        self.size += 1
+        return MyNode 
+    
+    def Remove(self,value):
+        if self.size == 0:
+            return False
+        else:
+            current = self.first
+            while current.Next.value != value:
+                if current.Next == None:
+                    return False
+                else:
+                    current = current.Next
+            DeletedNode = current.Next
+            current.Next = DeletedNode.Next
+
+        self.size -= 1
+
+        return DeletedNode
+
+    def __len__(self):
+        return self.size
+    
+    def __str__(self):
+        string = "["
+        current  = self.first
+        while current != None:
+            string += str(current)
+            string += str(",")
+            current = current.Next
+        string += "]"
+
+        return string
+
+
+
+Mylist = listaEnlazada()
+
+Mylist.Append(1)
+Mylist.Append(2)
+Mylist.Append(3)
+Mylist.Append(4)
+
+print(Mylist)
