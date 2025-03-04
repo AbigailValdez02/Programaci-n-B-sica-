@@ -14,3 +14,6 @@ elif n > 2:
         print("El numero no es primo")
     else:
         print("El numero es primo")
+
+
+#***
